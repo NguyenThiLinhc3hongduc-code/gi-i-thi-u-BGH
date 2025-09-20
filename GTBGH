@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #b22222;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .intro {
+      display: flex;
+      align-items: flex-start;
+    }
+    .intro img {
+      width: 150px;
+      margin-right: 20px;
+      border: 1px solid #ccc;
+    }
+    .info p {
+      margin: 5px 0;
+    }
+    .info b {
+      color: #b22222;
+    }
+  </style>
+</head>
+<body>
+  <h1>Giới thiệu</h1>
+
+  <div class="intro">
+    <img src="https://via.placeholder.com/150" alt="Ảnh lãnh đạo">
+    <div class="info">
+      <p><b>Giám đốc: Nguyễn Thị Thủy</b></p>
+      <p>- Trình độ chuyên môn: Cử nhân Sư phạm Ngữ văn, Thạc sĩ Quản lý giáo dục</p>
+      <p>- Trình độ LLCT: Cao cấp</p>
+      <p>- Điện thoại: 0983.264.272</p>
+      <p>- Email: <a href="mailto:nguyenthithuy.gd@quangninh.edu.vn">nguyenthithuy.gd@quangninh.edu.vn</a></p>
+    </div>
+  </div>
+</body>
+</html>
